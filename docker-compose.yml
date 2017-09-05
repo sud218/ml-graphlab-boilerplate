@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  gl-core:
+    # env_file: ./.env
+    environment:
+      - GL_USER_EMAIL
+      - GL_USER_KEY
+    build:
+      context: .
+      args:
+        - GL_USER_EMAIL
+        - GL_USER_KEY
+    volumes:
+      - ./:/workspace
+    ports:
+      - "8888:8888"
+    image: gl-core  # Tag Name
