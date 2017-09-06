@@ -6,6 +6,9 @@ clean:
 	sudo docker rm graphlab || true
 
 build: clean
+	git stash save
+	git pull --rebase origin master
+	git stash pop
 	sudo docker-compose build
 
 run: build
