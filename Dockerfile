@@ -11,8 +11,7 @@ WORKDIR /workspace
 
 RUN set -eux \
     && apt-get update && apt-get install -y \
-    && apt-get install --no-install-recommends -y \
-    && apt-get install build-essential libssl-dev -y \
+    && apt-get install --no-install-recommends build-essential libssl-dev -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN conda update --yes pip
