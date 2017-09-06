@@ -16,7 +16,7 @@ git clone git@github.com:sud218/ml-graphlab-boilerplate.git
 cd ml-graphlab-boilerplate
 ```
 - Obtain your `graphlab` [API key][gl-api-key]. It is completely free for personal use.
-- Open `.env` file. Replace `GL_USER_EMAIL` with the registered `graphlab` email id and `GL_USER_KEY` with the `graphlab` API key and save.
+- Open `.env` file. Update `GL_USER_EMAIL` with the registered `graphlab` email id and `GL_USER_KEY` with the `graphlab` API key and save.
 ```
 GL_USER_EMAIL=your.email@email.com
 GL_USER_KEY=YOUR-GRAPHLAB-API-KEY
