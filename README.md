@@ -21,11 +21,11 @@ cd ml-graphlab-boilerplate
 GL_USER_EMAIL=your.email@email.com
 GL_USER_KEY=YOUR-GRAPHLAB-API-KEY
 ```
-- Run` make` and you are done!
+- Run `make` and you are done!
 ```bash
 make
 ```
-You should see the following with the link to your `notebook`. Grab that link and paste into your browser. 
+You should see the following with the **link to your `notebook`**. Grab that link and paste into your browser. 
 ![installation-image]
 
 Voila! You are ready to get started on machine learning.
