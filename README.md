@@ -35,6 +35,8 @@ Voila! You are ready to get started on machine learning.
 - Read [Graphlab docs][gl-docs] and explore different models and tools available.
 - Create your own notebook!
 
+---
+_Facing trouble running? Please create an [issue][git-issue] and I will get back to you._
 
 [graphlab]: https://turi.com/
 [docker]: https://www.docker.com/what-docker
@@ -43,3 +45,4 @@ Voila! You are ready to get started on machine learning.
 [gl-api-key]: https://turi.com/download/academic.html
 [installation-image]: https://i.imgur.com/RxPNuXP.png
 [gl-docs]: https://turi.com/products/create/docs/
+[git-issue]: https://github.com/sud218/ml-graphlab-boilerplate/issues
