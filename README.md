@@ -51,4 +51,4 @@ _Facing trouble running? Please create an [issue][git-issue] and I will get back
 [installation-image]: https://i.imgur.com/RxPNuXP.png
 [gl-docs]: https://turi.com/products/create/docs/
 [git-issue]: https://github.com/sud218/ml-graphlab-boilerplate/issues
-[jupyter-image]: https://imgur.com/v4JcLhI
+[jupyter-image]: https://i.imgur.com/v4JcLhI.png
