@@ -26,14 +26,19 @@ GL_USER_KEY=YOUR-GRAPHLAB-API-KEY
 make
 ```
 You should see the following with the **link to your `notebook`**. Grab that link and paste into your browser. 
+
 ![installation-image]
 
 Voila! You are ready to get started on machine learning.
+
+Note: If you are running on cloud, replace the ip `0.0.0.0` in the above url to with your **`docker-ip`**. You can very easily get your **`docker-ip`** by running `make docker-ip`.
 
 ### What's next?
 - When you open the `notebook url`, you will see some example notebooks. Go though them and run the notebooks to get first hand experience on different applications of machine learning.
 - Read [Graphlab docs][gl-docs] and explore different models and tools available.
 - Create your own notebook!
+
+![jupyter-image]
 
 ---
 _Facing trouble running? Please create an [issue][git-issue] and I will get back to you._
@@ -46,3 +51,4 @@ _Facing trouble running? Please create an [issue][git-issue] and I will get back
 [installation-image]: https://i.imgur.com/RxPNuXP.png
 [gl-docs]: https://turi.com/products/create/docs/
 [git-issue]: https://github.com/sud218/ml-graphlab-boilerplate/issues
+[jupyter-image]: https://imgur.com/v4JcLhI
