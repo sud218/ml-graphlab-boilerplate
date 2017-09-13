@@ -3,7 +3,7 @@ main: run
 clean:
 	sudo docker-compose down
 	sudo docker-compose rm -f
-	sudo docker rm graphlab || true
+	sudo docker rm -f graphlab || true
 
 build: clean
 	git stash save
