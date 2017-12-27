@@ -8,6 +8,11 @@ We are living in a world where we are seeing vast advancements in ML and AI than
 - [Docker][docker] is an awesome tool that _you should have learnt yesterday_. It makes setting up the development environment a breeze.
 - [Jupyter Notebook][jupyter] allows you to create and share documents that contain live code, equations, visualizations and explanatory text, right in your browser.
 
+
+***NOTE**: If you want to use the open sourced [Scikit-Learn][scikit] with Pandas,
+refer to the [ml-scikit-boilerplate][scikit-boilerplate].*
+
+
 ## To get started
 - Install [Docker][docker-install]
 - Clone this project
@@ -52,3 +57,5 @@ _Facing trouble running? Please create an [issue][git-issue] and I will get back
 [gl-docs]: https://turi.com/products/create/docs/
 [git-issue]: https://github.com/sud218/ml-graphlab-boilerplate/issues
 [jupyter-image]: https://i.imgur.com/v4JcLhI.png
+[scikit]: http://scikit-learn.org/stable/
+[scikit-boilerplate]: https://github.com/sud218/ml-scikit-boilerplate
